@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>pigment</title>
+    
+    <link rel="stylesheet" href="form_iframe_style.css">
+</head>
+<body>
+<div class="wrapper">
+<div class="wrapper__container">
+<div class="container__form">
+<div class="form__title">Zapisz się, zbieraj złot&oacute;wki i korzystaj z rabat&oacute;w!</div>
+<div class="form__inputs">
+<div class="inputs__input"><input type="email" id="sm-form-email" name="sm-form-email" required="" placeholder="adres e-mail" />
+<div class="error"><span>⨯</span> niepoprawny adres e-mail</div>
+</div>
+<div class="inputs__input"><input class="btn" onclick="validateForm('contact.htm', event, 0);" type="submit" name="sm-form-submit" id="sm-form-submit" value="Dołączam" /></div>
+</div>
+<div class="form__agreements">
+<div class="agreements__checkbox"><label> wyrażam zgodę na przetwarzanie moich danych osobowych w celach marketingowych oraz na otrzymywanie informacji handlowych i marketingowych przez firmę pigment s.c. i oświadczam, że podanie przeze mnie danych osobowych jest dobrowolne oraz iż zostałem poinformowany o prawie żądania dostępu do moich danych osobowych, ich zmiany oraz usunięcia. <!-- $sm-consent.desc.ZGODA_NA_NEWSLETTER$ --> <input type="hidden" value="true" name="$sm-consent.id.ZGODA_NA_NEWSLETTER$" /> <input name="$sm-consent.name.ZGODA_NA_NEWSLETTER$" class="checkboxes" type="checkbox" required="" /> <span class="checkmark"></span> ​ </label></div>
+</div>
+</div>
+</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
